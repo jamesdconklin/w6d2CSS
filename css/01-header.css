@@ -1,0 +1,42 @@
+/* PHASE 1: Header */
+.header {
+  background: #f00;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+}
+
+.header-logo {
+  padding: 10px 20px 10px 20px;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  font-weight: 700;
+}
+
+.header-nav {
+  margin: 0 auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.header-list {
+  justify-content: space-between;
+  display: flex;
+}
+
+.header-list > li {
+  float: left;
+  padding: 10px 20px 10px 20px;
+  border-left: 1px solid #fff;
+  display: block;
+  position: relative;
+}
+
+.header-logo:hover, .header-list li:hover {
+  background: #000;
+}
+
+.header-list > li:last-child {
+  border-right: 1px solid #fff;
+}
